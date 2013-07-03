@@ -29,7 +29,7 @@ The logformat is compatible with the logformat of PassiveDNS.
 
 Example output from the log file (/var/log/activedns.log):
 
-#timestamp||dns-client ||dns-server||RR class||Query||Query Type||Answer||TTL||Count
+timestamp||dns-client ||dns-server||RR class||Query||Query Type||Answer||TTL||Count
 1322849924.123456||192.168.0.1||8.8.8.8||IN||upload.youtube.com.||A||74.125.43.117||46587||1
 1322849924.123456||192.168.0.1||8.8.8.8||IN||upload.youtube.com.||A||74.125.43.116||420509||1
 1322849924.123456||192.168.0.1||8.8.8.8||IN||www.adobe.com.||CNAME||www.wip4.adobe.com.||43200||1
