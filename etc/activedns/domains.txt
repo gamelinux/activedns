@@ -1,0 +1,6 @@
+# Some sample domains to test with...
+www.networktotal.com
+www.gamelinux.org
+www.google.com
+www.facebook.com
+www.twitter.com

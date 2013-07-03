@@ -1,0 +1,7 @@
+* Print some stats
+  - how many domains has been queried
+  - how many domains resolve
+  - how many are dead
+    - how many are NXDOMAIN
+    - how many are SRVERR etc
+    - ...
