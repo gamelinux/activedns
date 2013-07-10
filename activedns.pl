@@ -345,7 +345,7 @@ sub save_persistance {
 
   if ( $PERSISTANCE != 0 ) {
     if (open(my $PFH, ">", $PERSFILE)) {
-      for my $domain ( keys $hash ) {
+      for my $domain ( keys %{$hash} ) {
         my $epoch = $hash->{$domain};
         print $PFH "$domain,$epoch\n";
         $cnt++;
