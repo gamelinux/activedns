@@ -250,11 +250,11 @@ sub log_adns {
   return if not defined $LFH;
 
   if ( ($NOLOG == 0) && ($ADNSLOG ne "") ) {
-    print $LFH "$epoch.123456||$LIP||$serverip||$rr||$query||$type||$answer||$ttl||$count\n";
+    print $LFH "$epoch.123456||$LIP||$serverip||$rr||$query.||$type||$answer||$ttl||$count\n";
   }
 
   if ( $DAEMON == 0 && $VERBOSE == 1) {
-    logger("[*] $epoch.123456||$LIP||$serverip||$rr||$query||$type||$answer||$ttl||$count\n");
+    logger("[*] $epoch.123456||$LIP||$serverip||$rr||$query.||$type||$answer||$ttl||$count\n");
   }
 }
 
