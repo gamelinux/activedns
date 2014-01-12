@@ -83,6 +83,7 @@ my $PIDFILE       = q(/var/run/activedns.pid);
 GetOptions(
    'file=s'        => \$ADNSFILE,
    'batch'         => \$BATCH,
+   'usleep'        => \$SLEEP,
    'ttl-mul=s'     => \$TTL_MUL,
    'ttl-min=s'     => \$TTL_MIN,
    'nolog'         => \$NOLOG,
