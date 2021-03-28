@@ -162,6 +162,10 @@ while (1) {
     usleep($SLEEP);
   }
   $a_res->await();
+  if ( $BATCH == 1 ) {
+    logger("[*] Batch run finished...\n");
+    exit;
+  }
   sleep 5;
   logger("[D] Looping\n") if $DEBUG;
 }
